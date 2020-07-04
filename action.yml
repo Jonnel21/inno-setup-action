@@ -5,4 +5,4 @@ inputs:
     description: 'iss script to compile'
     required: true
     default: 'None'
-runs: .\iscc
+runs: .\iscc BioPy_Setup.iss
