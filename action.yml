@@ -2,5 +2,5 @@ name: 'Setup Installer'
 description: 'Takes a iss file and compiles to an exe installer'
 steps:
   - name: Display the path
-    run: echo %PATH%
+    runs: echo %PATH%
     shell: cmd
