@@ -1,4 +1,6 @@
 name: 'Setup Installer'
-description: 'Compiles an iss file to create an exe installer file'
-runs: |
-      .\iscc BioPy_Setup.iss
+description: 'Takes a iss file and compiles to an exe installer'
+steps:
+  - name: Display the path
+    run: echo %PATH%
+    shell: cmd
