@@ -1,5 +1,5 @@
 name: 'Setup Installer'
 description: 'Takes a iss file and compiles to an exe installer'
 runs:
- using: 'iscc'
+ using: 'ISCC.exe'
  main: 'BioPy_Setup.iss'
