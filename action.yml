@@ -1,4 +1,4 @@
 name: 'Setup Installer'
 description: 'Compiles an iss file to create an exe installer file'
-using: 'iscc'
-runs: 'BioPy_Setup.iss'
+runs: |
+      .\iscc BioPy_Setup.iss
