@@ -1,8 +1,3 @@
 name: 'Setup Installer'
 description: 'Compiles an iss file to create an exe installer file'
-inputs:
-  iss:  # id of input
-    description: 'iss script to compile'
-    required: true
-    default: 'None'
 runs: .\iscc BioPy_Setup.iss
